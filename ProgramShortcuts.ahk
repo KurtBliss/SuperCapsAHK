@@ -26,8 +26,11 @@ CapsLock & f::
     SetWorkingDir, %currentDir%
     appFlapper( UserProfileEnv . "\AppData\Local\Discord\" . newestFolder .  "\Discord.exe")
     return
-                               ; F - Discord
 CapsLock & c::
     EnvGet, UserProfileEnv, USERPROFILE
-    appFlapper( UserProfileEnv . "\AppData\Local\GitHubDesktop\GitHubDesktop.exe")
+    if WinActive("GitHub Desktop") {
+        WinMinimize
+    } else {
+        appFlapper( UserProfileEnv . "\AppData\Local\GitHubDesktop\GitHubDesktop.exe")
+    }
     return
