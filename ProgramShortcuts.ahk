@@ -27,3 +27,7 @@ CapsLock & f::
     appFlapper( UserProfileEnv . "\AppData\Local\Discord\" . newestFolder .  "\Discord.exe")
     return
                                ; F - Discord
+CapsLock & c::
+    EnvGet, UserProfileEnv, USERPROFILE
+    appFlapper( UserProfileEnv . "\AppData\Local\GitHubDesktop\GitHubDesktop.exe")
+    return
