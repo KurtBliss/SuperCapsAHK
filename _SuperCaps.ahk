@@ -13,6 +13,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #include, HandleWindowMouse.ahk ; LAlt + Lmousebutton and drag to move around any window or one with tilebar off screen
 #include, ProgramShortcuts.ahk 
 #include, WebSearch.ahk ; Ctrl + C will copy text then search for it on your default web browserS
+#include, YoutubeControl.ahk
 CapsLock & r::Reload
 
 ;   #   Windows
