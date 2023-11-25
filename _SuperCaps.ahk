@@ -21,6 +21,8 @@ CapsLock & r::Reload
 ; ?TODO: Add script for holding caps+tab for help
 ;           ?make help autogenerate from comments?
 
+; ?TODO: Add auto updater that pulls git
+
 ;   #   Windows
 ;   !   Alt
 ;   ^   Ctrl
