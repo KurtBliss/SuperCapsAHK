@@ -1,3 +1,4 @@
+#Requires AutoHotkey 1.1.34.03
 
 ; Prepare CapsLock key for Shortcuts
 +CapsLock::

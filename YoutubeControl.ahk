@@ -1,3 +1,5 @@
+#Requires AutoHotkey 1.1.34.03
+
 SendToYoutubePlayer(key) {
     WinGet, ReturnToWindow, ID, A  ; Get the ID of the active window
     if WinExist("YouTube") {

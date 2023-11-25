@@ -1,3 +1,5 @@
+#Requires AutoHotkey 1.1.34.03
+
 LAlt & LButton::
     ; Add a check incase someone is trying to bring up a files/folders props window
     if (A_PriorHotKey = "LAlt & LButton" && A_TimeSincePriorHotkey < 300) {

@@ -1,3 +1,5 @@
+#Requires AutoHotkey 1.1.34.03
+
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -15,6 +17,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #include, WebSearch.ahk ; Ctrl + C will copy text then search for it on your default web browserS
 #include, YoutubeControl.ahk
 CapsLock & r::Reload
+
+; ?TODO: Add script for holding caps+tab for help
+;           ?make help autogenerate from comments?
 
 ;   #   Windows
 ;   !   Alt

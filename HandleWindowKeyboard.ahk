@@ -1,3 +1,5 @@
+#Requires AutoHotkey 1.1.34.03
+
 ; Window always on top
 ^SPACE::  Winset, Alwaysontop, , A
 

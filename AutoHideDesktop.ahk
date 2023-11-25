@@ -1,3 +1,5 @@
+#Requires AutoHotkey 1.1.34.03
+
 ; Register a system-wide mouse click event for the desktop
 ~LButton::
     ; Get the window under the mouse cursor

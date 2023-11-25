@@ -1,8 +1,8 @@
+#Requires AutoHotkey 1.1.34.03
+
 appFlapper(exe, altlaunch:=false) {
     IfWinExist, ahk_exe %exe%
         IfWinActive 
-            ; TODO: GET ALL WINDOWS OF EXE HERE
-
             WinMinimize
         else
             WinActivate
