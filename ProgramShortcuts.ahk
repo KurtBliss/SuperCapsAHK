@@ -1,4 +1,3 @@
-#Requires AutoHotkey 1.1.34.03
 
 CapsLock & w::AppFlapper("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 #space::appFlapper("C:\Windows\System32\notepad.exe")
