@@ -1,5 +1,6 @@
 #Requires AutoHotkey 1.1.34.03
 
+CapsLock & Tab::appFlapper("C:\Users\kurtb\AppData\Local\Programs\Notion\Notion.exe")                                   ;Tab - Notion
 CapsLock & w::AppFlapper("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 #space::appFlapper("C:\Windows\System32\notepad.exe")
 CapsLock & d::
