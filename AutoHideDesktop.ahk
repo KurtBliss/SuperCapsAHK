@@ -1,4 +1,3 @@
-#Requires AutoHotkey 1.1.34.03
 
 ; Register a system-wide mouse click event for the desktop
 ~LButton::

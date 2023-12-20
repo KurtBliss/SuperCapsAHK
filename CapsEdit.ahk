@@ -1,4 +1,3 @@
-#Requires AutoHotkey 1.1.34.03
 
 ; Edit
 CapsLock & e:: 

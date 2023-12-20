@@ -1,4 +1,3 @@
-#Requires AutoHotkey 1.1.34.03
 
 appFlapper(exe, altlaunch:=false) {
     IfWinExist, ahk_exe %exe%
