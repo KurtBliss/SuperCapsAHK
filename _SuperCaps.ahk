@@ -4,6 +4,8 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+SetCapsLockState alwaysoff
+
 ; Scripts
 #include, AlarmClock.ahk ; Def: tap caps + v to clear notification popup, hold to launch the windows clock app
 #include, AppFlapper.ahk ; Toggles if programs are minimized and starts if not started 
