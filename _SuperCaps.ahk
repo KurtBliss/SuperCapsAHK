@@ -17,6 +17,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #include, YoutubeControl.ahk
 CapsLock & r::Reload
 
+#CapsLock::
+Process,close,explorer.exe
+sleep, 500 ;This sleep 5000 is to let you see what actually happens. Decrease it later
+run, explorer.exe
+return
+
 ; ?TODO: Add script for holding caps+tab for help
 ;           ?make help autogenerate from comments?
 
